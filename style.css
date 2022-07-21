@@ -1,0 +1,91 @@
+.left
+{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 4px;
+}
+.left img
+{
+width: 125px;
+margin: 1px 0px;
+/* padding: 0px */
+}
+.mid
+{ 
+   
+    display: block;
+    width: 31%;
+    margin:2% 33%;
+    border: 2px solid black;
+    border-radius: 50px;   
+}
+ul
+{
+    padding-inline-start: 0%;
+padding-inline-end: 0%;
+}
+.navbar li 
+{
+    display: inline-block;
+    /* text-decoration: none; */
+    margin: 0px 35px;
+    /* padding-left: 0%; */
+}
+.navbar li a
+{
+    text-decoration: none;
+    color: black;
+}
+.navbar li a:hover, .navbar li a:active
+{
+    color: grey;
+    /* text-decoration: underline; */
+
+}
+.right
+{
+    
+    position: absolute;
+    top: 40px;
+    right: 2%;
+    display: inline-block;
+    padding:2px 2px;
+    /* border-style: ; */
+    border: 4px hidden rgba(70, 70, 72, 0.325);    
+    background-color: rgba(156, 155, 155, 0.173);
+}
+#search
+{
+    /* margin: 2px; */
+    border: 1px solid rgba(0, 0, 0, 0.496);
+    margin: 0px 0px ;
+    cursor: pointer;    
+    padding: 0%;
+    font-size: 14px;
+}
+.button
+{
+    margin: 2% 47%;
+    cursor: pointer;
+}
+.zoom {
+    transition: transform .2s; /* Animation */
+    /* width: 200px;
+    height: 200px; */
+    margin: 0 auto;
+ }
+ 
+.zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+i
+{
+    padding: 0px;
+    margin: 0%;
+}
+i:hover
+{
+ cursor: pointer;
+}
